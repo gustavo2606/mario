@@ -46,17 +46,172 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
+
+body {
     background-image: url("imagens/image\ 1.png");
-    height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+ 
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    left: 73px;
+}
+ 
+.menu {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+ 
+.logo-img {
+    width: 70px;
+    height: 40px;
+    margin-left: 73px;
+    margin-right: 51px;
+    margin-top: 31px;
+}
+ 
+.menu-cabecalho {
+    display: flex;
+    gap: 54px;
+    color: #ffffff;
+    font-size: 16px;
+}
+ 
+.menu-item {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-top: 31px;
+}
+ 
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 150px;
+}
+ 
+.icone {
+    margin-left: 16px;
+    margin-top: 28px;
+    height: 22px;
+    width: 22px;
+}
+ 
+.esquerda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 550px;
+    height: 600px;
+    align-content: flex-end;
+}
+.logo-mario{
+    margin-bottom: 30px;
+    align-self: start;
+    /* width: 400px; */
+    letter-spacing: 3px;
+    /* height: 270px; */
+}
+.texto{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: white;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.botao-assistir{
+    display: flex;
+    background-color: #AB2323;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.botao-assistir:hover{
+    background-color: #AB2323;
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+.botao-comprar{
+    border: 5px solid #14531E;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+ 
+.botao-comprar:hover{
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+.linha{
+    display: flex;
+    max-width: 1750px;
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    height: 500px;
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.foto{
+    width: 500px;
+    height: 600px;
 }
 
-.chapeu-vermelho{
-   width: auto; 
-   height: 70px;
-}
 
-.cabecalho{
-    
-}
+
+
+
+
+
+
+
+ 
